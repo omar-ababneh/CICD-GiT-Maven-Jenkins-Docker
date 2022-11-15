@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:9-jre9
+From httpd
 
 # Maintainer 
 MAINTAINER "khalid.kifayat@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webapp.war /usr/local/apache2/webapps
